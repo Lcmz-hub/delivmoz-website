@@ -47,6 +47,7 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
+              <a href="https://wa.me/258862996574" target="_blank" rel="noopener noreferrer">
               <Button 
                 size="lg" 
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg"
@@ -54,13 +55,16 @@ const Hero = () => {
                 Fazer Pedido Agora
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-4 text-lg"
-              >
+              </a>
+              <a href="#como-funciona">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-4 text-lg"
+                >
                 Ver Como Funciona
               </Button>
+              </a>
             </div>
 
             {/* Stats */}

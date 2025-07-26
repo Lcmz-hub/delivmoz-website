@@ -57,7 +57,7 @@ const HowItWorks = () => {
   ]
 
   return (
-    <section id="how-it-works" className="py-20 bg-white">
+    <section id="como-funciona" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -159,6 +159,7 @@ const HowItWorks = () => {
               Entre em contacto connosco agora e experimente nosso serviço
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="https://wa.me/258862996574" target="_blank" rel="noopener noreferrer">
               <Button 
                 size="lg"
                 className="bg-blue-600 hover:bg-blue-700 text-white"
@@ -166,6 +167,9 @@ const HowItWorks = () => {
                 Fazer Pedido Agora
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
+              </a>
+
+              <a href="https://wa.me/258862996574" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="outline" 
                 size="lg"
@@ -173,6 +177,7 @@ const HowItWorks = () => {
               >
                 Falar no WhatsApp
               </Button>
+              </a>
             </div>
           </div>
         </div>
