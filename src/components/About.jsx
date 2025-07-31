@@ -226,11 +226,12 @@ const About = () => {
             Entre em contacto connosco e descubra como podemos ajudar você ou seu negócio
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-white"
-            >
-              Fazer Pedido Agora
+            <a href="https://wa.me/258851516380" target="_blank" rel="noopener noreferrer">
+              <Button 
+                size="lg"
+                className="bg-blue-600 hover:bg-blue-700 text-white"
+              >
+                Fazer Pedido Agora
             </Button>
             <Button 
               variant="outline"
@@ -239,6 +240,7 @@ const About = () => {
             >
               Falar Connosco
             </Button>
+            </a>
           </div>
         </div>
       </div>

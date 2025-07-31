@@ -14,9 +14,9 @@ const Services = () => {
     {
       icon: UtensilsCrossed,
       title: 'Entrega de Comida',
-      description: 'Dos melhores restaurantes de Nampula direto para sua casa',
+      description: 'Dos melhores restaurantes de Nampula directo para sua casa',
       features: ['Comida quente', 'Restaurantes verificados', 'Cardápio variado'],
-      price: 'A partir de 50MT',
+      price: 'A partir de 120MT',
       time: '30-45 min',
       color: 'bg-orange-500'
     },
@@ -25,7 +25,7 @@ const Services = () => {
       title: 'Entrega de Documentos',
       description: 'Serviços corporativos e pessoais com máxima segurança',
       features: ['Documentos seguros', 'Entrega expressa', 'Comprovante digital'],
-      price: 'A partir de 100MT',
+      price: 'A partir de 130MT',
       time: '15-30 min',
       color: 'bg-blue-600'
     },
@@ -34,7 +34,7 @@ const Services = () => {
       title: 'Entrega de Produtos',
       description: 'Vestuário, bijuterias e outros produtos com cuidado especial',
       features: ['Embalagem segura', 'Rastreamento', 'Seguro incluído'],
-      price: 'A partir de 75MT',
+      price: 'A partir de 120MT',
       time: '45-60 min',
       color: 'bg-green-600'
     },
@@ -43,7 +43,7 @@ const Services = () => {
       title: 'Entrega Express',
       description: 'Para quando você precisa de velocidade máxima',
       features: ['Prioridade máxima', 'Entregador dedicado', 'Sem paradas'],
-      price: 'A partir de 150MT',
+      price: 'A partir de 350MT',
       time: '15-25 min',
       color: 'bg-purple-600'
     }

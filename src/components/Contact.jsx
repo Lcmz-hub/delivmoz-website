@@ -66,6 +66,8 @@ const Contact = () => {
     'Entrega de Documentos',
     'Entrega de Produtos',
     'Entrega Express',
+    'Pesquisa de Preço',
+    'Compra de Produtos',
     'Serviço Personalizado'
   ]
 
@@ -213,6 +215,7 @@ const Contact = () => {
               </h3>
               
               <div className="space-y-4">
+                <a href="https://wa.me/258876613277" target="_blank" rel="noopener noreferrer">
                 <Button 
                   className="w-full bg-green-600 hover:bg-green-700 text-white justify-start"
                   size="lg"
@@ -236,6 +239,7 @@ const Contact = () => {
                   <Mail className="mr-3 h-5 w-5" />
                   Email: contacto@delivmoz.co.mz
                 </Button>
+                </a>
               </div>
 
               {/* Social Media */}

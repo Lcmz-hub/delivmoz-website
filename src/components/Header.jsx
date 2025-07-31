@@ -64,9 +64,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white">
-              Fazer Pedido
-            </Button>
+            <a href="https://wa.me/258851516380" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+                Fazer Pedido
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

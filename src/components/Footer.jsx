@@ -96,6 +96,8 @@ const Footer = () => {
               <li className="text-gray-300">Entrega de Documentos</li>
               <li className="text-gray-300">Entrega de Produtos</li>
               <li className="text-gray-300">Entrega Express</li>
+              <li className="text-gray-300">Pesquisa de Preço</li>
+              <li className="text-gray-300">Compra de Produtos</li>
               <li className="text-gray-300">Serviços Personalizados</li>
             </ul>
           </div>
