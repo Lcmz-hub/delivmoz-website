@@ -35,9 +35,11 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="bg-blue-600 text-white px-3 py-2 rounded-lg font-bold text-xl">
-              DelivMoz
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="DelivMoz Logo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
