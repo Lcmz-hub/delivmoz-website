@@ -138,7 +138,8 @@ const Footer = () => {
 
      "use client"; // Para Next.js 13+
 
-export default function MailchimpForm() {
+// Componente MailchimpForm
+export function MailchimpForm() {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md max-w-2xl mx-auto">
       <div id="mc_embed_signup">
@@ -207,7 +208,14 @@ export default function MailchimpForm() {
   );
 }
 
-      {/* Bottom Footer */}
+// Componente Footer
+export function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  return (
+    <footer>
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
@@ -234,8 +242,6 @@ export default function MailchimpForm() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
-export default Footer
 
