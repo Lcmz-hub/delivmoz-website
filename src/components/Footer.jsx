@@ -157,7 +157,6 @@ export function MailchimpForm() {
             <div className="indicates-required mb-2">
               <span className="asterisk">*</span> indica obrigatório
             </div>
-            
             <div className="mc-field-group mb-4">
               <label htmlFor="mce-EMAIL" className="block mb-1 font-medium">
                 Endereço de e-mail <span className="asterisk">*</span>
@@ -170,8 +169,6 @@ export function MailchimpForm() {
                 required
               />
             </div>
-
-            {/* Campos ocultos obrigatórios */}
             <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
               <input
                 type="text"
@@ -180,7 +177,6 @@ export function MailchimpForm() {
                 defaultValue=""
               />
             </div>
-
             <div className="mt-6">
               <button
                 type="submit"
@@ -193,22 +189,12 @@ export function MailchimpForm() {
           </div>
         </form>
       </div>
-
-      {/* Adicione esses scripts no final da página */}
-      <link
-        href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <script
-        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-        async
-      ></script>
     </div>
   );
 }
-
 // Componente Footer
+import { ArrowUp } from 'lucide-react';
+
 export function Footer() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -222,7 +208,6 @@ export function Footer() {
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © 2024 DelivMoz. Todos os direitos reservados.
             </div>
-            
             <div className="flex items-center space-x-6">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Política de Privacidade
@@ -244,4 +229,3 @@ export function Footer() {
     </footer>
   );
 }
-

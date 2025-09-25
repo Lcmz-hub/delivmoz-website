@@ -35,7 +35,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/Img/uploads/logo.png" alt="Logo Delivmoz" className="logo" />
+            <img src="/Public/logo.png" alt="Logo Delivmoz" className="logo" />
           </div>
 
           {/* Desktop Navigation */}
