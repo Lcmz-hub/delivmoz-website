@@ -1,3 +1,5 @@
+"use client";
+
 import { 
   Phone, 
   Mail, 
@@ -55,36 +57,12 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-3">
-              <li>
-                <a href="#home" className="text-gray-300 hover:text-white transition-colors">
-                  Início
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  Serviços
-                </a>
-              </li>
-              <li>
-                <a href="#how-it-works" className="text-gray-300 hover:text-white transition-colors">
-                  Como Funciona
-                </a>
-              </li>
-              <li>
-                <a href="#coverage" className="text-gray-300 hover:text-white transition-colors">
-                  Cobertura
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="text-gray-300 hover:text-white transition-colors">
-                  Sobre Nós
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
-                  Contacto
-                </a>
-              </li>
+              <li><a href="#home" className="text-gray-300 hover:text-white transition-colors">Início</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white transition-colors">Serviços</a></li>
+              <li><a href="#how-it-works" className="text-gray-300 hover:text-white transition-colors">Como Funciona</a></li>
+              <li><a href="#coverage" className="text-gray-300 hover:text-white transition-colors">Cobertura</a></li>
+              <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">Sobre Nós</a></li>
+              <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contacto</a></li>
             </ul>
           </div>
 
@@ -113,17 +91,14 @@ const Footer = () => {
                   <p className="text-gray-300">+258 85 151 6380</p>
                 </div>
               </div>
-              
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400 flex-shrink-0" />
                 <p className="text-gray-300">contacto@delivmoz.co.mz</p>
               </div>
-              
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <p className="text-gray-300">Nampula, Moçambique</p>
               </div>
-              
               <div className="flex items-start space-x-3">
                 <Clock className="h-5 w-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <div>
@@ -136,72 +111,7 @@ const Footer = () => {
         </div>
       </div>
 
-     "use client"; // Para Next.js 13+
-
-// Componente MailchimpForm
-export function MailchimpForm() {
-  return (
-    <div className="bg-white p-6 rounded-lg shadow-md max-w-2xl mx-auto">
-      <div id="mc_embed_signup">
-        <form
-          action="https://app.us3.list-manage.com/subscribe/post?u=579962decf1fa7ee97a50fbdd&amp;id=a7f2566688"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
-          className="validate"
-          target="_blank"
-          noValidate
-        >
-          <div id="mc_embed_signup_scroll">
-            <h2 className="text-2xl font-bold mb-4">Inscrever</h2>
-            <div className="indicates-required mb-2">
-              <span className="asterisk">*</span> indica obrigatório
-            </div>
-            <div className="mc-field-group mb-4">
-              <label htmlFor="mce-EMAIL" className="block mb-1 font-medium">
-                Endereço de e-mail <span className="asterisk">*</span>
-              </label>
-              <input
-                type="email"
-                name="EMAIL"
-                className="required email w-full px-4 py-2 border rounded-lg"
-                id="mce-EMAIL"
-                required
-              />
-            </div>
-            <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
-              <input
-                type="text"
-                name="b_579962decf1fa7ee97a50fbdd_a7f2566688"
-                tabIndex="-1"
-                defaultValue=""
-              />
-            </div>
-            <div className="mt-6">
-              <button
-                type="submit"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
-                id="mc-embedded-subscribe"
-              >
-                Assinar
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  );
-}
-// Componente Footer
-import { ArrowUp } from 'lucide-react';
-
-export function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  return (
-    <footer>
+      {/* Bottom Bar */}
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
@@ -227,5 +137,7 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }
+
+export default Footer
